@@ -3,9 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="index1.css">
 </head>
 <body>
-    <p>Hello World!</p>
+    <div class="container">
+        <header>
+            <h1>My To-Do List</h1>
+        </header>
+        <main>
+            <input type="text" id="task-input" placeholder="Add a new task...">
+            <button id="add-task-button">Add</button>
+            <ul id="task-list"></ul>
+        </main>
+        <footer>
+            <p>&copy; 2024 My To-Do App</p>
+        </footer>
+    </div>
+    <script src="index2.js"></script>
 </body>
 </html>
